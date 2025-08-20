@@ -13,21 +13,19 @@ You are discouraged from changing any provided CSS.
 
 */
 
-
 /************* site defaults *************/
 body {
-    width: 950px;
-    margin: 0 auto;
-    font-family: 'Montserrat', sans-serif;
-    line-height: 1.5;
+  width: 950px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
 }
 
 /* TO DO: all elements with the .flex class applied are to be made into flex-box containers. */
 
 .flex {
-    display: flex;
+  display: flex;
 }
- 
 
 /************* site-wide text styling *************/
 
@@ -45,48 +43,47 @@ body {
 */
 
 h1 {
-    font-size: 48px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h2 {
-    font-size: 36px;
-    margin-bottom: 12px;
+  font-size: 36px;
+  margin-bottom: 12px;
 }
 
 .large-text {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .fake-button {
-    width: 300px;
-    padding: 5px;
-    background-color: #E5AF42;
-    text-align: center;
-    line-height: 3;
-    border: 1px solid black;
+  width: 300px;
+  padding: 5px;
+  background-color: #e5af42;
+  text-align: center;
+  line-height: 3;
+  border: 1px solid black;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 main a:hover,
 footer a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .fake-button:hover,
 .blue-hover:hover {
-    text-decoration: underline;
-    background-color: #4278e5;
-    color: white;
-    cursor: pointer;
+  text-decoration: underline;
+  background-color: #4278e5;
+  color: white;
+  cursor: pointer;
 }
-
 
 /************* header/footer styling *************/
 
@@ -100,36 +97,36 @@ footer a:hover {
 
 header,
 footer {
-    background-color: #E5AF42;
+  background-color: #e5af42;
 }
 
 header {
-    height: 150px;
-    align-items: center;
+  height: 150px;
+  align-items: center;
 }
 
 header img {
-    width: 100px;
-    height: 100px;
-    margin: 25px;
+  width: 100px;
+  height: 100px;
+  margin: 25px;
 }
 
 header h1 {
-    flex: 1;
+  flex: 1;
 }
 
 main {
-    margin-top: 25px;
-    margin-bottom: 50px;
+  margin-top: 25px;
+  margin-bottom: 50px;
 }
 
 footer {
-    height: 60px;
-    font-weight: 200;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  height: 60px;
+  font-weight: 200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 /************* index page *************/
@@ -142,30 +139,28 @@ footer {
     - the pair of fake-buttons will be centered on the page. HINT: can calculate the required margin to make them appear to be centered.
 */
 
-
 .index img {
-    width: 300px;
-    margin-left: 25px;
-    margin-bottom: 50px;
+  width: 300px;
+  margin-left: 25px;
+  margin-bottom: 50px;
 }
 
 .index .about-us {
-    flex: 1;
+  flex: 1;
 }
 
 .index h2 {
-    line-height: 36px;
+  line-height: 36px;
 }
 
 .index p {
-    margin-bottom: 12px;
+  margin-bottom: 12px;
 }
 
 .index .fake-button {
-    width: 250px;
-    margin-left: 150px;
+  width: 250px;
+  margin-left: 150px;
 }
-
 
 /************* bookings page *************/
 
@@ -181,49 +176,45 @@ footer {
 
 */
 
-
 .booking-page {
-    width: 600px;
-    margin: 20px auto;
-    font-size: 18px;
-    text-align: center;
+  width: 600px;
+  margin: 20px auto;
+  font-size: 18px;
+  text-align: center;
 }
 
 .day-selector {
-    justify-content: center;
-    margin-bottom: 12px;
+  justify-content: center;
+  margin-bottom: 12px;
 }
 
 .day-selector li {
-    width: 60px;
-    margin-right: 20px;
-    border: 1px solid black;
-    text-align: center;
-    line-height: 2;
+  width: 60px;
+  margin-right: 20px;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 2;
 }
 
 .small-button {
-    border: 1px solid black;
-    padding: 5px;
+  border: 1px solid black;
+  padding: 5px;
 }
 
 .top-margin {
-    margin-top: 24px;
-    margin-bottom: 12px;
+  margin-top: 24px;
+  margin-bottom: 12px;
 }
 
 .booking-page .fake-button {
-    width: 200px;
-    margin: 0 auto;
-    margin-bottom: 50px;
+  width: 200px;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 .clicked {
-    background-color: #E5AF42;
+  background-color: #e5af42;
 }
-
-
-
 
 /************* contact page *************/
 /* TO DO:
@@ -235,41 +226,41 @@ footer {
 */
 
 .contact {
-    height: 420px;
-    margin: 20px auto;
-    text-align: center;
+  height: 420px;
+  margin: 20px auto;
+  text-align: center;
 }
 
 .contact form {
-    width: 474px;
-    margin: 0 auto;
+  width: 474px;
+  margin: 0 auto;
 }
 
 .contact .flex {
-    justify-content: center;
-    margin-bottom: 24px;
+  justify-content: center;
+  margin-bottom: 24px;
 }
 
 .contact label {
-    width: 150px;
-    text-align: right;
-    margin-right: 24px;
+  width: 150px;
+  text-align: right;
+  margin-right: 24px;
 }
 
 .contact input,
 .contact textarea,
 .contact button {
-    width: 300px;
-    font-family: 'Montserrat', sans-serif;
-    line-height: 24px;
-    font-size: 16px;
-    border: 1px solid black;
+  width: 300px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 24px;
+  font-size: 16px;
+  border: 1px solid black;
 }
 
 .contact textarea {
-    height: 150px;
+  height: 150px;
 }
 
 .contact button {
-    margin-left: 174px;
+  margin-left: 174px;
 }
